@@ -29,11 +29,11 @@ public class Rakendus {
 //java -jar target/boot3-1.0-SNAPSHOT.jar
 
 
-    public static void main(String[] args) {
+  //  public static void main(String[] args) {
 		//System.getProperties().put("server.port", 35878);
-        SpringApplication.run(Rakendus.class, args);
-    }
-}
+      //  SpringApplication.run(Rakendus.class, args);
+    //}
+//}
 
 //scl enable rh-maven33 bash tellib pakku kaasa
 //mvn package commpileerib
