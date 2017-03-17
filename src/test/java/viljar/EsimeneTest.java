@@ -7,4 +7,9 @@ public class EsimeneTest{
   public void test1(){
     assertEquals(3,3);
   }
+  @Test
+  public void test2(){
+    Rakendus r=new Rakendus();
+    assertEquals("Ahoi",r.tervitusfunktsioon());
+  }
 }
